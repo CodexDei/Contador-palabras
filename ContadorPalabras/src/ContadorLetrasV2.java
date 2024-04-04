@@ -28,6 +28,7 @@ public class ContadorLetrasV2 {
         }
 
         // Mostrar el resultado al usuario
-        JOptionPane.showMessageDialog(null, resultado, "Contar letras", JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(null,
+            "En la frase '" + frase + "' hay el siguiente numero de letras:\n"+ resultado, "Contar letras", JOptionPane.INFORMATION_MESSAGE);
     }
 }
